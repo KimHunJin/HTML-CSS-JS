@@ -1,0 +1,61 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  width: 100%;
+}
+
+.app > .container {
+  margin: 0 auto;
+  width: 75rem;
+}
+
+.app > .container::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.app > .container > .todo-container {
+  float: left;
+  width: calc(50% - 4rem);
+  height: calc(100% - 6rem);
+}
+
+.app > .container > .done-container {
+  float: left;
+  width: calc(50% - 4rem);
+  height: calc(100% - 6rem);
+}
+
+.app > header > h1 {
+  padding: 1rem;
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  background-color: #03c75a;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+dt {
+  float: left;
+  width: 120px;
+  padding: 0;
+  margin: 0;
+}
+
+dd {
+  float: left;
+  width: calc(100% - 200px);
+  padding: 0;
+  margin: 0;
+}

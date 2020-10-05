@@ -1,0 +1,23 @@
+{
+  "name": "html-css-js",
+  "version": "1.0.0",
+  "description": "vanilla js web page",
+  "main": "index.js",
+  "scripts": {
+	"start": "serve -s -l 5000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimHunJin/HTML-CSS-JS.git"
+  },
+  "author": "mos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimHunJin/HTML-CSS-JS/issues"
+  },
+  "homepage": "https://github.com/KimHunJin/HTML-CSS-JS#readme",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}
