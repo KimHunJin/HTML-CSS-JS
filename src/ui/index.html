@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8">
+    <title>상품 페이지</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+<main class="app">
+    <header>
+        <h1>카카오 인형가게</h1>
+    </header>
+    <div class="app-wrapper">
+        <div class="product-image">
+            <img src="./images/sample.jpg" alt="product image">
+        </div>
+        <div class="product-info">
+            <h2>인형</h1>
+                <div>
+                    <span class="price-text">10,000</span> 원~
+                </div>
+                <h3>상품 옵션</h2>
+            <div class="options">
+                <h3 id="progressText">
+                    목록을 가져오는 중입니다. 잠시만 기다려 주세요.
+                </h3 >
+                <select id="items" style="width:80%; visibility: hidden;">
+                    <option value="" selected disabled hidden>==선택하세요==</option>
+                </select>
+                <select id="option-items" style="width: 80%; visibility: hidden;">
+                    <option value="" selected disabled hidden>==선택하세요==</option>
+                </select>
+            </div>
+            <h3>선택된 상품</h2>
+                <div id="selected-options" class="selected-options">
+                    옵션을 선택해주세요.
+                </div>
+                <h3>총 가격</h2>
+                    <div class="total-price">
+                        <span class="total-price"></span>
+                    </div>
+                    <button id="order-button" class="order-button">주문하기</button >
+        </div>
+    </div>
+</main>
+<script src="../scripts/index.js"></script>
+</body>
+</html>
